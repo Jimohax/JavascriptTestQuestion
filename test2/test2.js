@@ -1,19 +1,18 @@
-
-
-const verve = document.getElementById('verve');
-const visa = document.getElementById('visa');
-const mastercard = document.getElementById('mastercard');
-
+// Checked property
+let mastercard = document.getElementById('mastercard')
+let verve = document.getElementById('verve')
+let visa = document.getElementById('visa')
 
 function submit(){
-    if(verve.checked){
-        console.log('You are paying with Verve');
-    }else if (visa.checked){
-        console.log('You are paying with Visa');
-    }else if(mastercard.checked){
-        console.log('You are paying with Mastercard');
-    }else {
 
-        console.log('You must select a payment method');
+    if(mastercard.checked){
+        console.log('You are paying with a mastercard');
+    }else if(verve.checked){
+        console.log('You are paying with a verve card');
+    }else if(visa.checked){
+        console.log('You are paying with a visa card');
     }
+
+
+    // console.log('Hello');
 }

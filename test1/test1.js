@@ -17,23 +17,14 @@ Algorithm
     */  
 
     const revString = (str)=>{
-        let arr = str.split('');
-        arr.reverse();
-        let newString = arr.join('');
-        console.log(newString);
+        let word =  str.split("");
+        // arr.reverse();
+        // let newString = arr.join('');
+        console.log(word);
     }
 revString('chigozie');
 
-let warning = document.getElementById('subscribe')
 
-function submit(){
-    if(warning.checked){
-        console.log('You are subscribed');
-    }else{
-
-        console.log('You are NOT subscribed');
-    }
-}
 
 
 
