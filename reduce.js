@@ -7,8 +7,8 @@ let items = [
     {name: 'laptop', price: 2000000},
 ]
 
- items.forEach((item)=>{
-//    let newItem = item.price + 250
-   let newItem = [...items, item.price + 250]
-     console.log(newItem);
-})
+ const total = items.reduce((currentTotal, item)=>{
+  return item.price + currentTotal
+},0)
+
+console.log(total);
