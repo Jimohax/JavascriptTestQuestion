@@ -1,3 +1,8 @@
+/*
+    array.forEach(): executes a provided callback func tion
+    once  for each array element. 
+*/
+
 let items = [
     {name: 'bread', price: 2000},
     {name: 'car', price: 2000000},
