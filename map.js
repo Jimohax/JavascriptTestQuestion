@@ -1,3 +1,7 @@
+/*
+Map: this returns each keys in the array
+*/
+
 let items = [
     {name: 'bread', price: 2000},
     {name: 'car', price: 2000000},
@@ -7,8 +11,17 @@ let items = [
     {name: 'laptop', price: 2000000},
 ]
 
-let filteredItems = items.map((item)=>{
-   return item.price
+let bigItem = items.map((item)=>{
+    
 })
 
-console.log(filteredItems);
+// let filteredItems = items.map((item)=>{
+//    return item.price
+// })
+
+// console.log(filteredItems);
+
+let newItems = items.map((item)=>{
+    return item.price
+})
+console.log(newItems);
